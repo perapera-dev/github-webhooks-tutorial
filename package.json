@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -w",
+    "serve": "node ./dist/app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "octokit": "^3.1.1"
   },
   "devDependencies": {
-    "smee-client": "^1.2.3"
+    "smee-client": "^1.2.3",
+    "typescript": "^5.2.2"
   }
 }
